@@ -1,12 +1,12 @@
-
+//1. chiedi all'utene il nome//
 var nome = prompt("Qual è il tuo nome?");
-nome = parseInt(nome);
+
+//2. chiedi all'utente il suo cognome//
 var cognome = prompt ("E il tuo cognome?");
-cognome = parseInt(cognome);
+
+//3. chiedi all'utente il suo colore preferito//
 var colore = prompt ("Qual è il tuo colore perferito?");
-colore = parseInt(colore);
 
-var somma = nome + cognome + colore;
-somma = parseInt(somma);
-
-document.getElementById('totale').innerHTML = somma;
+var password = nome + cognome + colore + 19;
+//4.stampo il risultato a video//
+document.getElementById('password').innerHTML=password;
